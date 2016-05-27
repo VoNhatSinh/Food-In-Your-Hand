@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="8">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/image_1"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgImageLoveStore"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:text="Chip chip - Tra sua thach pho mai"
+            android:id="@+id/txtNameLoveStore"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:text="40/20 Lê Đức thọ"
+            android:id="@+id/txtAddressLoveStore"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            style="?android:attr/ratingBarStyleSmall"
+            android:isIndicator="false"
+            android:id="@+id/ratingBarLoveStore"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_star_big_on"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:id="@+id/imgLove"/>
+    </RelativeLayout>
+
+</LinearLayout>

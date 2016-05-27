@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodInYourHand</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_stream">Stream</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_photos">Photos</string>
+    <string name="title_activity_detail_food_store">DetailFoodStore</string>
+    <string name="title_activity_detail_store">DetailStoreActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
